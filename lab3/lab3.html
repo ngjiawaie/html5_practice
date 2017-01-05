@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lab 3</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<form method="post" action="http://www.mmu.edu.my">
+	<h1>New HTML5 Input Types Demo</h1>
+	<p>This form demostrates the new HTML5 input types and the placeholder, required and autofocus attributes</p>
+	<p>
+		Month: <input type="month" name="imonth"> (yyyy-mm)
+	</p>
+	<p>
+		Number: <input type="number" name="inum" min="0" max="7" value="4"> (Enter a number between 0 and 7)
+	</p>
+	<p>
+		Range: 0 <input type="range" name="irange" min="0" max="20" value="10"> 20
+	</p>
+	<p>
+		Search: <input type="search" name="isearch" placeholder="search query"> (Enter your search query here.)
+	</p>
+	<p>
+		Tel: <input type="tel" name="itel" placeholder="03-12345678" pattern="\d{2}-\d{8}" required> ##-########
+	</p>
+	<p>
+		Time: <input type="time" name="itime"> (hh:mm)
+	</p>
+	<p>
+		URL: <input type="url" name="iurl" placeholder="http://www.domainname.com"> (http://www.domainname.com)
+	</p>
+	<p>
+		Week: <input type="week" name="iweek"> (yyyy-Wnn, such as 2012-W01)
+	</p>
+	
+	<p>
+		<input type="submit" value="Submit">
+		<input type="reset" >
+	</p>
+</form>
+</body>
+</html>

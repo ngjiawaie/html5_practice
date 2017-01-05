@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 2 question 2</title>
+</head>
+<body>
+<form method="post" action="http://www.mmu.edu.my" formnovalidate autocomplete="on">
+	<p>
+		Average Student Rating: <meter min="0" max="100" value="65">65 out of 100</meter>
+	</p>
+	<p>
+		<details>
+			<summary>Student Results</summary>
+			<mark>Teachers were asked to evaluate students in an examination on a scale of 1 to 100.</mark> The average result was 65. 
+		</details>
+	</p>
+	<p>
+		Tel: <input type="tel" name="itel" required autofocus>
+	</p>
+	<p>
+		<input type="text" name="itext" placeholder="fav fruit" list="fruits">
+		<datalist id="fruits">
+			<option value="Mango">
+			<option value="Papaya">
+			<option value="Orange">
+			<option value="Apple">
+			<option value="Peach">
+		</datalist>
+	</p>
+	<p>
+		Range: 5 <input type="range" name="irange" min="5" max="50" value="28"> 50
+	</p>
+	<p>
+		<input type="submit" name="Submit">
+		<input type="reset" name="Clear">
+	</p>
+</form>
+</body>
+</html>
